@@ -337,7 +337,7 @@ text_sensor:
     icon: mdi:air-filter
     lambda: |-
       if (id(sen55_voc).state < 80) {
-        return std::string("Improved");} 
+        return std::string("Now Improved");} 
       else if (id(sen55_voc).state < 150) {
         return std::string("Normal");} 
       else if (id(sen55_voc).state < 250) {
